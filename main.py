@@ -12,7 +12,7 @@ def convert(pdf_file: str, docx_file: str = None, start: int = 0, end: int = Non
     cv.close()
 
 
-pdf_file = "C:\\Users\\Nirjhar\\Desktop\\workfiles\\ast_sci_data_tables_sample.pdf"
-docx_file: str = 'C:\\Users\\Nirjhar\\Desktop\\workfiles\\converted_1.docx'
+pdf_file = "C:\\Users\\Ripsita\\Desktop\\workfiles\\ast_sci_data_tables_sample.pdf"
+docx_file: str = 'C:\\Users\\Ripsita\\Desktop\\workfiles\\converted_1.docx'
 
 convert(pdf_file, docx_file);
